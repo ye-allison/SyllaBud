@@ -1,0 +1,33 @@
+
+/* Content adjustments for different backgrounds */
+.stSelectbox select {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+ }
+ 
+ 
+ .dataframe {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+ }
+ 
+ 
+ /* Adjust text color based on background */
+ [data-testid="stSidebar"] [data-testid="stMarkdown"] {
+    color: #1E1E1E;
+ }
+ 
+ 
+ /* Smooth transitions */
+ .stApp,
+ section[data-testid="stSidebar"],
+ div[data-testid="stToolbar"],
+ div[data-testid="stDecoration"],
+ div[data-testid="stHeader"],
+ .main .block-container {
+    transition: background-color 0.3s ease;
+ }
+ 
+ 
+ 
+ 
